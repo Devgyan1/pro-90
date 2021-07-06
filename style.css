@@ -1,43 +1,58 @@
-.body_background 
+body
 {
-    background-image: url("https://images5.alphacoders.com/998/thumb-1920-998470.jpg");
-    background-position: center;
-    background-size: cover;
-}
-#myCanvas
-{
-    border-width:10px;
-    background-color: white; 
-    border-style:ridge;
+	background-image: url(http://math-quiz.co.uk/assets/images/mq_logo_large_slide.png);
+    background-color: chocolate;
+    cursor: cell;
 }
 
-h2
-{
-	border-radius: 10px;
-	width: 200px;
-	padding: 5px;
-	background-color: aquamarine;
-	color: crimson;
- }
-h3
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
 {
 	display: inline-block;
+	margin-left: 20px;
 }
-span
+#word
 {
-	color: white;	
+	width: 60%;
 }
-a
+#word_display
 {
-	text-decoration: none;
-	font-size: 20px;
-	padding: 10px;
-    float: left;
-    border-radius: 10px;
+	letter-spacing: 5px;
 }
-#head_info
+#output
 {
-	width: 600px;
-	border-radius: 10px;
-	margin-bottom: 10px;
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#p1
+{
+    background-color: cyan;
+    cursor: vertical-text;
+}
+
+#p2
+{
+    background-color: cadetblue;
+    cursor: vertical-text;
+}
+
+#go
+{
+    width: 200px;
+    height: 80px;
+    font-size: 50px;
+    cursor:grabbing;
 }
